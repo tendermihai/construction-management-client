@@ -13,6 +13,18 @@
 
 <body>
     <h1>Construction Management</h1>
+
+    <select name="sort" class="sort">
+        <option value="">--Sort by--</option>
+        <option value="role">Sort by role</option>
+        <option value="gender">Sort by gender</option>
+        <option value="email">Sort by email
+
+        </option>
+    </select>
+
+    <button onclick="location.href='addconstruction.html'" class="addBtn">Add Construction</button>
+
     <div class="container">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
         <div class="row">
@@ -168,8 +180,11 @@
             </div>
         </div>
     </div>
-
+    <script src="api.js"></script>
+    <script src="functions.js"></script>
     <script src="app.js"></script>
+
+
 </body>
 
 </html>
